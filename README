@@ -1,0 +1,19 @@
+ReadMe for DSdiag v2.0
+
+DSdiag is a Nintendo DS Diagnostics Tool. It allows the user to check backlights, check if their device has a compatiable FAT driver, test the SRAM, check if their audio hardware is functioning correctly, check if their device supports GBA modes, tests WiFi by getting the DS's IP address, check for a Motion Card/Pak/MK6-Motion, check if there is a Rumble Pak inserted, check if their flashcart supports reseting from homebrew, tests the microphone to see if it is working, checks if the internal BootLoader of the GBAMP is functioning correctly by boot a .nds file of choice. DSdiag also writes the test results to a UTF-8 encoded plain text file. It also features a nice, clean Metroid-like theme.
+
+Please note that some features are not perfect. You may sometimes experiance problems with a certain feature. It does not mean it's broken. Currently the features that are a little buggy are the "HB Boot" and the "Mic Test" on the second page. ALso note that DSdiag will recognize all NoPass devices as "Motion Cards" when doing the "Motion Test". Please make sure you have a "Motion Card/Pak/MK6-Motion" inserted while doing that test. Also, the "Rumble Test" might be broken (I don't have a Rumble Pak). This is beyond my control because it is a bug with libnds. This may just be in later versions of libnds, I do not know.
+
+
+Compiled with: devkitARM r20, libnds 01272007, libFAT 01272007, dswifi lib 0.3.1. On a 933Mhz Pentium 3 Dell Precision 420 with Ubuntu 7.04. Graphics made using MS-Paint and edited using The GIMP. Graphics compiled using WinXP Media Center 2005 and a 3.2GHz HP Pavillion, using PAGfx (Because the Linux version hangs).
+
+
+Many thanks to wintermute, dovoto, joat, sgstair, chishm, Olimar (aka. Loopy), LiraNuna, DragonMinded, strager, and all others who have aided me in the production of this application by making DS Dev possible. Special thanks to #tod2 on EFnet and #dsorganize on Rizon.
+
+Any Questions, Comments, Concerns, email me at teendev@gmail.com
+
+
+-TeenDev
+
+http://www.maxfierke.com
+
